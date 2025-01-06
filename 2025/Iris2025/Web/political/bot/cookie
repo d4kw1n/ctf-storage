@@ -1,0 +1,9 @@
+{
+  "name": "admin",
+  "value": "redacted",
+  "domain": "localhost:5000",
+  "url": "http://localhost:5000/",
+  "path": "/",
+  "httpOnly": true,
+  "secure": true
+}
