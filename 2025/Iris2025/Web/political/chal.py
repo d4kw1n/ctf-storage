@@ -10,7 +10,8 @@ valid_tokens = {}
 @app.route("/")
 def index():
     return send_file("index.html")
-
+  
+# https://political-web.chal.irisc.tf/giveflag?a=b&token=abcd
 @app.route("/giveflag")
 def hello_world():
     if "token" not in request.args or "admin" not in request.cookies:

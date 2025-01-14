@@ -13,7 +13,6 @@ const puppeter_args = {};
       socket.state = 'URL';
       socket.write('Please send me a URL to open.\n');
   }
-
   async function load_url(socket, data) {
     let url = data.toString().trim();
     console.log(`checking url: ${url}`);
