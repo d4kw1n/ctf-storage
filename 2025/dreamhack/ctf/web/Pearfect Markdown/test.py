@@ -1,0 +1,18 @@
+# mov     [rbp+var_30], 61h ; 'a'
+# mov     [rbp+var_2F], 74h ; 't'
+# mov     [rbp+var_2E], 63h ; 'c'
+# mov     [rbp+var_2D], 63h ; 'c'
+# mov     [rbp+var_2C], 74h ; 't'
+# mov     [rbp+var_2B], 66h ; 'f'
+# mov     [rbp+var_2A], 5Fh ; '_'
+# mov     [rbp+var_29], 52h ; 'R'
+# mov     [rbp+var_28], 34h ; '4'
+# mov     [rbp+var_27], 76h ; 'v'
+# mov     [rbp+var_26], 34h ; '4'
+# mov     [rbp+var_25], 72h ; 'r'
+# mov     [rbp+var_24], 73h ; 's'
+# mov     [rbp+var_23], 69h ; 'i'
+# mov     [rbp+var_22], 6Eh ; 'n'
+# mov     [rbp+var_21], 67h ; 'g'
+
+flag = "atcctf_R4v4rsing"
