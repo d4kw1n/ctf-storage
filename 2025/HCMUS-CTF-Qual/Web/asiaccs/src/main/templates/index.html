@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Search AsiaCCS Paper</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 40px;
+            background: #f9f9f9;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        form {
+            margin-bottom: 20px;
+            background: #fff;
+            padding: 20px;
+            border: 1px solid #ccc;
+        }
+
+        input[type="text"] {
+            padding: 8px;
+            width: 300px;
+            margin-right: 10px;
+        }
+
+        button {
+            padding: 8px 16px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background: #fff;
+        }
+
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: #eee;
+        }
+
+        #results {
+            margin-top: 20px;
+        }
+
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Search <a href="https://asiaccs2025.hust.edu.vn/">AsiaCCS</a>  Conference Papers</h1>
+
+    <form id="authorForm">
+        <strong>Search by Author:</strong><br>
+        <input type="text" name="name" placeholder="Enter author name" required>
+        <button type="submit">Search</button>
+    </form>
+
+    <form id="affiliationForm">
+        <strong>Search by Affiliation:</strong><br>
+        <input type="text" name="affiliation" placeholder="Enter affiliation" required>
+        <button type="submit">Search</button>
+    </form>
+
+    <div id="results"></div>
+
+    <script>
+        function renderResults(data) {
+            const container = document.getElementById('results');
+            if (!data.results || data.results.length === 0) {
+                container.innerHTML = "<p class='error'>No results found.</p>";
+                return;
+            }
+
+            let html = "<table><tr><th>Paper Title</th><th>Author</th><th>Affiliation</th></tr>";
+            data.results.forEach(r => {
+                html += `<tr><td>${r.title}</td><td>${r.author}</td><td>${r.affiliation}</td></tr>`;
+            });
+            html += "</table>";
+            container.innerHTML = html;
+        }
+
+        function sendQuery(url, payload) {
+            fetch(url, {
+                method: "POST",
+                headers: {"Content-Type": "application/json"},
+                body: JSON.stringify(payload)
+            })
+            .then(res => {
+                if (!res.ok) throw new Error("Request failed");
+                return res.json();
+            })
+            .then(renderResults)
+            .catch(err => {
+                document.getElementById('results').innerHTML = `<p class="error">${err.message}</p>`;
+            });
+        }
+
+        document.getElementById('authorForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const name = this.name.value.trim();
+            if (name) sendQuery('/api/search_by_author', { name });
+        });
+
+        document.getElementById('affiliationForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const affiliation = this.affiliation.value.trim();
+            if (affiliation) sendQuery('/api/search_by_affiliation', { affiliation });
+        });
+    </script>
+</body>
+</html>

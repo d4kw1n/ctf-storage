@@ -1,0 +1,185 @@
+PITCH: AI-assisted Tagging of Deepfake Audio Calls using Challenge-Response
+Govind Mittal (Tandon School of Engineering, New York University), Arthur Jakobsson (Carnegie Mellon University), Kelly Marshall (Tandon School of Engineering, NYU), Chinmay Hegde (Tandon School of Engineering, New York University), Nasir Memon (Tandon School of Engineering, New York University)
+
+Preventing Radio Fingerprinting through Low-Power Jamming
+Muhammad Irfan (Hamad Bin Khalifa University), Savio Sciancalepore (Eindhoven University of Technology), Gabriele Oligeri (Hamad Bin Khalifa University)
+
+ProbeShooter: A New Practical Approach for Probe Aiming
+Daehyeon Bae (Korea University), Sujin Park (Korea University), Minsig Choi (Korea University), Young-Giu Jeong (YM-NaeulTech.), Changmin Jeong (Agency for Defense Development), Heeseok Kim (Korea University), Seokhie Hong (Korea University)
+
+NoBU: An effective and viable cyber-physical solution to thwart BadUSB attacks
+Andrea Ciccotelli (CEMSE, King Abdullah University of Science and Technology (KAUST)), Maurantonio Caprolu (CEMSE, King Abdullah University of Science and Technology (KAUST)), Roberto Di Pietro (CEMSE, King Abdullah University of Science and Technology (KAUST))
+
+DUPLEX: Scalable Zero-Knowledge Lookup Arguments over RSA Group
+Semin Han (Hanyang University), Geonho Yoon (Hanyang University), Hyunok Oh (Hanyang University), Jihye Kim (Kookmin university)
+
+Your Control Host Intrusion Left Some Physical Breadcrumbs: Physical Evidence-Guided Post-Mortem Triage of SCADA Attacks
+Moses Ike (Sandia National Laboratories), Keaton Sadoski (Sandia National Laboratories), Romuald Valme (Sandia National Laboratories), Burak Sahin (Georgia Institute of Technology), Saman Zonouz (Georgia Institute of Technology), Wenke Lee (Georgia Institute of Technology)
+
+REFLECTA: Reflection-based Scalable and Semantic Scripting Language Fuzzing
+Chibin Zhang (EPFL), Gwangmu Lee (EPFL), Qiang Liu (EPFL), Mathias Payer (EPFL)
+
+OMAD5G: Online Malware Detection in 5G Networks using Compound Paths
+Zhixin Wen (School of Computing, Binghamton University), Guanhua Yan (School of Computing, Binghamton University)
+
+AVXProbe: Enhancing Website Fingerprinting with Side-Channel-Assisted Kernel-Level Traces
+Suryeon Kim (KAIST), Seung Ho Na (KAIST), Jaehan Kim (KAIST), Seungwon Shin (KAIST), Hyunwoo Choi (Sungshin Women’s University)
+
+Three Glitches to Rule One Car: Fault Injection Attacks on a Connected EV
+Niclas Kühnapfel (Security in Telecommunications, TU Berlin), Christian Werling (Security in Telecommunications, TU Berlin), Hans Niklas Jacob (Security in Telecommunications, TU Berlin), Jean-Pierre Seifert (Security in Telecommunications, TU Berlin)
+
+Unraveling Elevated Data Leakage in Split Learning for Fine-Tuning Stable Diffusion Models
+Fei Wang (University of Toronto), Yan Zhu (University of Toronto), Baochun Li (University of Toronto)
+
+Sounds Vishy: Automating Vishing Attacks with AI-Powered Systems
+João Figueiredo (INESC-ID / Instituto Superior Tecnico, University of Lisbon), Afonso Carvalho (INESC-ID / Instituto Superior Tecnico, University of Lisbon), Daniel Castro (INESC-ID / Instituto Superior Tecnico, University of Lisboa), Daniel Gonçalves (INESC-ID / Instituto Superior Tecnico, University of Lisboa), Nuno Santos (INESC-ID / Instituto Superior Tecnico, University of Lisbon)
+
+Minerva: A File-Based Ransomware Detector
+Dorjan Hitaj (Sapienza University of Rome), Giulio Pagnotta (Sapienza University of Rome), Fabio De Gaspari (Sapienza University of Rome), Lorenzo De Carli (University of Calgary), Luigi Mancini (Sapienza University of Rome)
+
+FAULT+PROBE: A Generic Rowhammer-based Bit Recovery Attack
+Kemal Derya (Worcester Polytechnic Institute), M. Caner Tol (Worcester Polytechnic Institute), Berk Sunar (Worcester Polytechnic Institute)
+
+Okapi: Efficiently Safeguarding Speculative Data Accesses in Sandboxed Environments
+Philipp Schmitz (RPTU Kaiserslautern-Landau), Tobias Jauch (RPTU Kaiserslautern-Landau), Alex Wezel (RPTU Kaiserslautern-Landau), Mohammad Rahmani Fadiheh (Stanford University), Thore Tiemann (University of Lübeck), Jonah Heller (University of Lübeck), Thomas Eisenbarth (University of Lübeck), Dominik Stoffel (RPTU Kaiserslautern-Landau), Wolfgang Kunz (RPTU Kaiserslautern-Landau)
+
+Open Access Alert: Studying the Privacy Risks in Android WebView’s Web Permission Enforcement
+Trung Tin Nguyen (CISPA Helmholtz Center for Information Security), Ben Stock (CISPA Helmholtz Center for Information Security)
+
+A Novel Asymmetric BSGS Polynomial Evaluation Algorithm under Homomorphic Encryption
+Qingfeng Wang (School of Cyber Security, University of Chinese Academy of Sciences), Li-Ping Wang (School of Cyber Security, University of Chinese Academy of Sciences)
+
+Ruling the Unruly: Designing Effective, Low-Noise Network Intrusion Detection Rules for Security Operations Centers
+Koen T. W. Teuwen (Eindhoven University of Technology), Tom Mulders (Eindhoven University of Technology), Emmanuele Zambon (Eindhoven University of Technology), Luca Allodi (Eindhoven University of Technology)
+
+Generalized Adversarial Code-Suggestions: Exploiting Contexts of LLM-based Code-Completion
+Karl Rubel (Karlsruhe Institute of Technology), Maximilian Noppel (Karlsruhe Institute of Technology), Christian Wressnegger (Karlsruhe Institute of Technology)
+
+Enhanced CKKS Bootstrapping with Generalized Polynomial Composites Approximation
+Seonhong Min (Seoul National University), Joon-Woo Lee (Chung-Ang University), Yongsoo Song (Seoul National University)
+
+Glitch in Time: Exploiting Temporal Misalignment of IMU For Eavesdropping
+Ahmed Najeeb (RIT,LUMS), Abdul Rafay (LUMS), Muhammad Hamad Alizai (LUMS), Naveed Anwar Bhatti (LUMS)
+
+Efficient Updatable Private Information Retrieval From Simulatable Homomorphic Ciphertexts
+Haibo Tian (Sun Yat-sen University), Yini Lin (Sun Yat-sen University)
+
+QUIC-Exfiltration: Exploiting QUIC’s Server Preferred Address Feature to Perform Data Exfiltration Attacks
+Thomas Grübl (University of Zürich UZH), Weijie Niu (University of Zürich UZH), Jan von der Assen (University of Zürich UZH), Burkhard Stiller (University of Zürich UZH)
+
+OblivCDN: A Practical Privacy-preserving CDN with Oblivious Content Access
+Viet Vo (Swinburne University of Technology), Shangqi Lai (CSIRO’s Data61), Xingliang Yuan (The University of Melbourne), Surya Nepal (CSIRO’s Data61 Australia), Qi Li (Tsinghua University)
+
+Transferable Adversarial Examples with Bayesian Approach
+Mingyuan Fan (East China Normal University), Cen Chen (East China Normal University), Wenmeng Zhou (Alibaba Group), Yinggui Wang (Ant Group)
+
+An Optimized Instantiation of Post-Quantum MQTT protocol on 8-bit AVR Sensor Nodes
+YoungBeom Kim (Kookmin University), Seog Chung Seo (Kookmin University)
+
+GAE4HT: Detecting Hardware Trojans with Graph Autoencoder-Trained on Golden Model Data Flow Graphs
+Daehyeon Lee (Korea University), Junghee Lee (Korea University)
+
+Bits and Pieces: Piecing Together Factors of IoT Vulnerability Exploitation
+Arwa Abdulkarim Al Alsadi (Delft University of Technology), Mathew Vermeer (Delft University of Technology), Takayuki Sasaki (Yokohama National University), Katsunari Yoshioka (Yokohama National University), Michel Van Eeten (Delft University of Technology), Carlos Gañán (Delft University of Technology)
+
+Formal Analysis of SDNsec: Attacks and Corrections for Payload, Route Integrity and Accountability
+Ayoub Ben Hassen (École Supérieure des Communications), Pascal Lafourcade (Université Clermont Auvergne, CNRS, Clermont Auvergne INP, Mines Saint-Etienne, LIMOS), Dhekra Mahmoud (Université Clermont Auvergne, CNRS, Clermont Auvergne INP, Mines Saint-Etienne, LIMOS), Maxime Puys (Université Clermont Auvergne, CNRS, Clermont Auvergne INP, Mines Saint-Etienne, LIMOS)
+
+AWOSE: Probabilistic State Model for Consensus Algorithms’ Fuzzing Frameworks
+Tannishtha Devgun (University of Padua, Italy ,University of Camerino, Italy), Gulshan Kumar (University of Padua, Italy ,Lovely Professional University, India), Rahul Saha (University of Padua, Italy ,Lovely Professional University, India), Alessandro Brighente (University of Padua, Italy), Mauro Conti (University of Padua, Italy,Örebro University)
+
+A Cryptographic Analysis of Google’s PSP and Falcon Channel Protocols
+Marc Fischlin (Technical University of Darmstadt), Sascha Hoffmann (Technical University of Darmstadt), Leonhard Ruppel (Technical University of Darmstadt), Gözde Saçıak (Technical University of Darmstadt), Tobias Schnitzler (Technical University of Darmstadt), Christian Schwarz (Technical University of Darmstadt), Maximilian Stillger (Technical University of Darmstadt)
+
+An Empirical Study of C Decompilers: Performance Metrics and Error Taxonomy
+Melih Sirlanci (The Ohio State University), Carter Yagemann (The Ohio State University), Zhiqiang Lin (The Ohio State University)
+
+BIP32-Compatible Threshold Wallets
+Poulami Das (Least Authority ), Andreas Erwig (Technische Universität Darmstadt), Sebastian Faust (Technische Universität Darmstadt), Philipp-Florens Lehwalder (Technische Universität Darmstadt), Julian Loss (CISPA Helmholtz Center for Information Security), Ziyan Qu (Technische Universität Darmstadt), Siavash Riahi (Technische Universität Darmstadt)
+
+AuthentiSafe: Lightweight and Future-Proof Device-to-Device Authentication for IoT
+Lukas Petzi (University of Würzburg), Torsten Krauß (University of Würzburg), Alexandra Dmitrienko (University of Würzburg), Gene Tsudik (UC Irvine)
+
+An Empirical Study on Cross-chain Transactions: Costs, Inconsistencies, and Activities
+Kailun Yan (Shandong University,George Mason University), Bo Lu (George Mason University), Pranav Agrawal (George Mason University), Jiasun Li (George Mason University), Wenrui Diao (Shandong University), Xiaokuan Zhang (George Mason University)
+
+Proxies as Sensors: Measuring Censorship of Refraction Networking in Iran
+Abdulrahman Alaraj (Computer Science, University of Colorado Boulder,Computer Science, Prince Sattam Bin Abdulaziz University), Eric Wustrow (University of Colorado Boulder)
+
+FP-Rowhammer: DRAM-Based Device Fingerprinting
+Hari Venugopalan (UC Davis), Kaustav Goswami (UC Davis), Zainul Din (UC Davis), Jason Lowe-Power (UC Davis), Samuel T. King (UC Davis), Zubair Shafiq (UC Davis)
+
+Runtime Stealthy Perception Attacks against DNN-based Adaptive Cruise Control Systems
+Xugui Zhou (Louisiana State University), Anqi Chen (Northeastern University), Maxfield Kouzel (University of Virginia), Haotian Ren (University of Virginia), Morgan McCarty (Northeastern University), Cristina Nita-Rotaru (Northeastern University), Homa Alemzadeh (University of Virginia)
+
+ClearMask: Noise-Free and Naturalness-Preserving Protection Against Voice Deepfake Attacks
+Yuanda Wang (Michigan State University), Bocheng Chen (Michigan State University), Hanqing Guo (University of Hawaii at Mānoa), Guangjing Wang (University of South Florida), Weikang Ding (Michigan State University), Qiben Yan (Michigan State University)
+
+PentestAgent: Incorporating LLM Agents to Automated Penetration Testing
+Xiangmin Shen (Northwestern University), Lingzhi Wang (Northwestern University), Zhenyuan Li (Zhejiang University), Yan Chen (Northwestern University), Wencheng Zhao (Ant Group), Dawei Sun (Ant Group), Jiashui Wang (Zhejiang University), Wei Ruan (Zhejiang University)
+
+App-solutely Modded: The Rift Between Modded App Market Operators and Original Developers
+Luis Adán Saavedra del Toro (University of Cambridge), Hridoy S. Dutta (University of Cambridge), Alastair Beresford (University of Cambridge), Alice Hutchings (University of Cambridge)
+
+Learning to Identify Conflicts in RPKI
+Haya Schulmann (Goethe-Universität Frankfurt and National Research Center for Applied Cybersecurity ATHENE), Shujie Zhao (Fraunhofer SIT, ATHENE)
+
+Slice it up: Unmasking User Identities in Smartwatch Health Data
+Lucas Lange (Leipzig University & ScaDS.AI Dresden/Leipzig), Tobias Schreieder (Leipzig University & ScaDS.AI Dresden/Leipzig), Victor Christen (Leipzig University & ScaDS.AI Dresden/Leipzig), Erhard Rahm (Leipzig University & ScaDS.AI Dresden/Leipzig)
+
+Fast SNARK-based Non-Interactive Distributed Verifiable Random Function with Ethereum Compatibility
+Jia Liu (Enya Labs), Mark Manulis (PACY LabRI CODE, Universität der Bundeswehr München)
+
+Comprehensive Evaluation of Cloaking Backdoor Attacks on Object Detector in Real-World
+Hua Ma (Data61, CSIRO), Alsharif Abuadbba (Data61, CSIRO), Yansong Gao (Depeartment of Computer Science and Software Engineering, The University of Western Australia), Hyoungshick Kim (Sungkyunkwan University), Surya Nepal (Data61, CSIRO)
+
+Evaluating Disassembly Errors With Only Binaries
+Lambang Akbar Wijayadi (National University of Singapore), Yuancheng Jiang (National University of Singapore), Roland Yap (National University of Singapore), Zhenkai Liang (National University of Singapore), Zhuohao Liu (National University of Singapore)
+
+Vulnerable Intel GPU Context: Prohibit Complete Context Restore by Modifying Kernel Driver
+Wonseok Choi (Korea University), Youngjoo Shin (Korea University)
+
+Quantum-safe Signatureless DNSSEC
+Aditya Singh Rawat (Ashoka University), Mahabir Prasad Jhanwar (Ashoka University)
+
+Sigy: Breaking Intel SGX Enclaves with Malicious Exceptions & Signals
+Supraja Sridhara (ETH Zurich), Andrin Bertschi (ETH Zurich), Benedict Schlüter (ETH Zurich), Shweta Shinde (ETH Zurich)
+
+Concretely Efficient Private Set Union via Circuit-Based PSI
+Gowri R Chandran (TU Darmstadt), Thomas Schneider (TU Darmstadt), Maximilian Stillger (TU Darmstadt), Christian Weinert (Royal Holloway, University of London)
+
+Evaluating Robustness of Reference-based Phishing Detectors
+Eunjin Roh (Oregon State University), Sungwoo Jeon (KAIST), Sooel Son (KAIST), Sanghyun Hong (Oregon State University)
+
+Efficient Private Set Intersection by Utilizing Oblivious Transfer Extension
+Mingli Wu (Department of Computer Science, The University of Hong Kong), Tsz Hon Yuen (Department of Software Systems and Cybersecurity, Monash University), Siu-Ming Yiu (Department of Computer Science, The University of Hong Kong)
+
+Monocle: Transient Execution Proof Memory Views for Runtime Compiled Code
+Matteo Oldani (ETH Zürich), William Blair (Oracle Labs), Shweta Shinde (ETH Zürich), Matthias Neugschwandtner (Oracle Labs)
+
+SoK: The Privacy Paradox of Large Language Models: Advancements, Privacy Risks, and Mitigation
+Yashothara Shanmugarasa (CSIRO’s Data61), Ming Ding (CSIRO’s Data61), Chamikara Mahawaga Arachchige (CSIRO’s Data61), Thierry Rakotoarivelo (CSIRO’s Data61)
+
+TrustyMon: Practical Detection of DOM-based Cross-Site Scripting Attacks Using Trusted Types
+Sunnyeo Park (KAIST), Jihwan Kim (KAIST), Seongho Keum (KAIST), Hyunjoon Lee (KAIST), Sooel Son (KAIST)
+
+Welcome to HCMUS-CTF 2025
+silver (HCMUS-CTF{fake-flag-asiaccs})
+
+Virtual End-to-End Encryption: Analysis of the Doctolib Protocol
+Dennis Dayanikli (Hasso-Plattner-Institute, University of Potsdam), Laura Holz (Hasso-Plattner-Institute, University of Potsdam), Anja Lehmann (Hasso-Plattner-Institute, University of Potsdam)
+
+BISON: Blind Identification with Stateless scOped pseudoNyms
+Jakob Heher (Graz University of Technology ,Secure Information Technology Center Austria (A-SIT)), Stefan More (Graz University of Technology,Secure Information Technology Center Austria (A-SIT)), Lena Heimberger (Graz University of Technology)
+
+An Efficient Circuit Synthesis Framework for TFHE via Convex Sub-graph Optimization
+Animesh Singh (Indian Institute of Technology, Kharagpur), Ayantika Chatterjee (Indian Institute of Technology, Kharagpur), Anupam Chattopadhyay (Nanyang Technological University, Singapore), Debdeep Mukhopadhyay (Indian Institute of Technology, Kharagpur)
+
+VeRange: Verification-efficient Zero-knowledge Range Arguments with Transparent Setup for Blockchain Applications and More
+Yue Zhou (Australian National University), Sid Chi-Kin Chau (Data61, CSIRO)
+
+ProwseBox: A Framework for the Analysis of the Web at Scale
+Dolière Francis Somé (CISPA Helmholtz Center for Information Security)
+
+EXAM: Exploiting Exclusive System-Level Cache in Apple M-Series SoCs for Enhanced Cache Occupancy Attacks
+Tianhong Xu (Northeastern University), Aidong Adam Ding (Northeastern University), Yunsi Fei (Northeastern University)

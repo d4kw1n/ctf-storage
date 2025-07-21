@@ -1,0 +1,46 @@
+<%- include("../partials/header") %>
+<div class="container-xl mt-3 mb-3">
+    <div class="table-responsive">
+        <div class="table-wrapper">
+            <div class="table-title">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <h2>User <b>Management</b></h2>
+                    </div>
+                </div>
+            </div>
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th class="text-primary">#</th>
+                        <th class="text-primary">Name</th>						
+                        <th class="text-primary">Date Created</th>
+                        <th class="text-primary">Role</th>
+                        <th class="text-primary">Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                  <% users.forEach(function(user, index){ %>
+                  <% if (Object.keys(user).length !== 0) { %>
+                    <tr>
+                        <td class="text-primary"><%= index + 1 %></td>
+                        <td class="text-primary"><a href="/user/<%= user.data.username %>/profile"><img src="<%= user?.data?.images?.webp?.image_url %>" class="avatar mr-3" alt="Avatar" width="40"><%= user.data.username %></a></td>
+                        <td class="text-primary"><%= user.created_at.toDateString() %></td>                        
+                        <td class="text-primary"><%= user.role %></td>
+                        <td class="text-primary">
+                            <a href="./delete/<%= user.username %>" class="delete" title="Delete" data-toggle="tooltip"><i class="material-icons">&#xE5C9;</i></a>
+                        </td>
+                    </tr>
+                  <% } %>
+                  <% }); %>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div> 
+<script>
+$(document).ready(function(){
+	$('[data-toggle="tooltip"]').tooltip();
+});
+</script>
+<%- include("../partials/footer") %>

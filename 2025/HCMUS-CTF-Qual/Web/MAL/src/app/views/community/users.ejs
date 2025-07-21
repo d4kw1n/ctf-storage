@@ -1,0 +1,45 @@
+<!-- --------Search Results-------- -->
+
+<%- include("../partials/header") %>
+
+<div class="container">
+    <h3 style="text-align: center;">Users List</h3>
+    <hr>
+    <div class="row mt-1 mx-0">
+        <% users.forEach(function(user){ %>
+        <% if (Object.keys(user).length !== 0) { %>
+        <% user = user.data %>
+          <div class="class anime-entry col-lg-6 border-bottom pl-0 my-1">
+            <div class="rounded anime_cover mr-2">
+              <a href="/user/<%= user["username"] %>/profile">
+                <img class="user-avatar" src="<%= user?.images?.webp?.image_url %>" width="100%" alt="anime-cover">
+              </a>
+            </div>
+            <div class="text-truncate title mb-1 d-flex flex-nowrap align-items-center">
+                <a class="ml-1 anime_title text-truncate" href="/user/<%= user["username"] %>/profile"><%= user["username"] %></a>
+            </div>
+            <ul class="list-inline m-1">
+              <% if (user["joined"]) { %>
+              <li class="list-inline-item text-primary">Joined: <span><%= user["joined"].substring(0,10) %></span></li>
+              <% } %>
+              <% if (user["last_online"]) { %>
+              <li class="list-inline-item text-success">Last online: <%= user["last_online"].substring(0,10) %></li>
+              <% } %>
+            </ul>
+            <ul class="list-inline m-1">
+              <% if (user["birthday"]) { %>
+              <li class="list-inline-item text-success">Birthday: <%= user["birthday"].substring(0,10) %></li>
+              <% } %>
+            </ul>
+            <% if(user["about"]) { %>
+            <div style="height: 210px; overflow: hidden;">
+              <%- DOMPurify.sanitize(bbobHTML.default(user["about"], presetHTML5.default()), { FORBID_TAGS: ['img'] }) %>
+            </div>
+            <% } %>
+        </div>
+        <% } %>
+        <% }); %>
+    </div>
+</div>
+
+<%- include("../partials/footer") %>

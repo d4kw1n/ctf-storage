@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    restart: unless-stopped
+    ports:
+      - 8888:80
+    environment:
+      - MONGO_URI=mongodb://mongo:27017/MAL
+      - SECRET_KEY=[REDACTED]
+      - PORT=80
+      - CACHE_TTL=86400
+      - FLAG_1=HCMUS-CTF{[REDACTED1]}
+      - FLAG_2=HCMUS-CTF{[REDACTED2]}
+      - FLAG_3=HCMUS-CTF{[REDACTED3]}
+
+  mongo:
+    image: mongo:6.0.23

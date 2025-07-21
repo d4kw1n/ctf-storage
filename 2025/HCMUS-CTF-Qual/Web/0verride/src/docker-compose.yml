@@ -1,0 +1,23 @@
+services:
+  backend:
+    build: ./deploy
+    restart: unless-stopped
+    environment:
+      - PORT=3000
+      - JWT_SECRET_KEY=[REDACTED]
+    networks:
+      - no-internet
+  proxy:
+    build: ./proxy
+    depends_on:
+      - backend
+    networks:
+      - internet
+      - no-internet
+    ports:
+      - "5000:80"
+
+networks:
+  internet: {}
+  no-internet:
+    internal: true

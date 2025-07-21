@@ -1,0 +1,15 @@
+<%- include("../partials/header") %>
+<div class="container-xl mt-3 mb-3">
+    <form method="post" class="form-outline">
+      <label class="form-label" for="textAreaExample">Content</label>
+      <textarea class="form-control" id="textAreaExample1" rows="40" name="content"><%= content %></textarea>
+      <div class="row gutters mt-4">
+        <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+          <div class="text-center">
+            <input class="btn btn-primary" type="submit" value="Update">
+          </div>
+        </div>
+      </div>
+    </form>
+</div> 
+<%- include("../partials/footer") %>

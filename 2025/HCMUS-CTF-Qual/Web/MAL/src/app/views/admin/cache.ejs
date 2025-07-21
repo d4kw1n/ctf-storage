@@ -1,0 +1,39 @@
+<%- include("../partials/header") %>
+<div class="container-xl mt-3 mb-3">
+    <div class="table-responsive">
+        <div class="table-wrapper">
+            <div class="table-title">
+                <div class="row">
+                    <div class="col-sm-5">
+                        <h2>Cache <b>Management</b></h2>
+                    </div>
+                </div>
+            </div>
+            <table class="table table-striped table-hover">
+                <thead>
+                    <tr>
+                        <th class="text-primary">#</th>
+                        <th class="text-primary">Key</th>						
+                        <th class="text-primary">Value</th>
+                    </tr>
+                </thead>
+                <tbody>
+                  <% let index = 0 %>
+                  <% for (let cache in caches) { %>
+                    <tr>
+                        <td class="text-primary"><%= index + 1 %></td>
+                        <td class="text-primary"><%= cache %></td>
+                        <td class="text-primary"><%= caches[cache] %>...</td>                        
+                    </tr>
+                  <% index += 1; } %>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div> 
+<script>
+$(document).ready(function(){
+	$('[data-toggle="tooltip"]').tooltip();
+});
+</script>
+<%- include("../partials/footer") %>
